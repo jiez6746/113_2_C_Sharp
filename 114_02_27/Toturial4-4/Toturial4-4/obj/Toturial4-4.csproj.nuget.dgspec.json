@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shu\\source\\repos\\Toturial4-4\\Toturial4-4\\Toturial4-4.csproj": {}
+    "C:\\Users\\w401\\Desktop\\113_2_C_Sharp\\114_02_27\\Toturial4-4\\Toturial4-4\\Toturial4-4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shu\\source\\repos\\Toturial4-4\\Toturial4-4\\Toturial4-4.csproj": {
+    "C:\\Users\\w401\\Desktop\\113_2_C_Sharp\\114_02_27\\Toturial4-4\\Toturial4-4\\Toturial4-4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shu\\source\\repos\\Toturial4-4\\Toturial4-4\\Toturial4-4.csproj",
+        "projectUniqueName": "C:\\Users\\w401\\Desktop\\113_2_C_Sharp\\114_02_27\\Toturial4-4\\Toturial4-4\\Toturial4-4.csproj",
         "projectName": "Toturial4-4",
-        "projectPath": "C:\\Users\\shu\\source\\repos\\Toturial4-4\\Toturial4-4\\Toturial4-4.csproj",
-        "packagesPath": "C:\\Users\\shu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shu\\source\\repos\\Toturial4-4\\Toturial4-4\\obj\\",
+        "projectPath": "C:\\Users\\w401\\Desktop\\113_2_C_Sharp\\114_02_27\\Toturial4-4\\Toturial4-4\\Toturial4-4.csproj",
+        "packagesPath": "C:\\Users\\w401\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\w401\\Desktop\\113_2_C_Sharp\\114_02_27\\Toturial4-4\\Toturial4-4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\w401\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
