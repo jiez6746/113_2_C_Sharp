@@ -52,10 +52,10 @@ namespace Toturial4_4
                 loglistBox.Items.Add("平均油耗紀錄:");
                 for (int i = 1; i < loglistBox.Items.Count; i++)
                 {
-                    sum += double.Parse(loglistBox.Items[i].ToString().Replace("公里/公升", "")); //將loglistBox的值轉換成double並加總
+                    sum+= double.Parse(loglistBox.Items[i].ToString().Replace("公里/公升", "")); //將loglistBox的值轉換成double並加總
 
                 }
-                loglistBox.Items.Add("平均油耗紀錄"+(sum / (loglistBox.Items.Count - 1)).ToString("f2") + "公里/公升"); //顯示平均油耗總和
+                loglistBox.Items.Add("平均油耗:"+(sum / (loglistBox.Items.Count - 1)).ToString("f2") + "公里/公升"); //顯示平均油耗總和
             }
             else
             {
