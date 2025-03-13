@@ -26,17 +26,25 @@ namespace Program5_14
 
             try
             {
-                inputFile = File.OpenText("NUMBERS.txt"); //開啟檔案
-                while (!inputFile.EndOfStream) //當沒有讀到檔案結尾時(代表檔案都沒有資料)
-                {
-                    count++; //資料筆數加1
-                    temp = int.Parse(inputFile.ReadLine()); //將讀到的資料轉換為整數
-                    sum += temp; //將讀到的資料加到sum變數中
-                    listBox1.Items.Add(temp); //將讀到的資料加到listBox1控制項中
+                if (openFile.ShowDialog() == DialogResult.OK) //如果使用者按下開啟檔案按鈕
+                {   inputFile = File.OpenText(openFile.FileName); //開啟檔案                 
+                    while (!inputFile.EndOfStream) //當沒有讀到檔案結尾時(代表檔案都沒有資料)
+                    {
+                        count++; //資料筆數加1
+                        temp = int.Parse(inputFile.ReadLine()); //將讀到的資料轉換為整數
+                        sum += temp; //將讀到的資料加到sum變數中
+                        listBox1.Items.Add(temp); //將讀到的資料加到listBox1控制項中
+                    }
+                    listBox1.Items.Add("總共有" + count + "個數字\n總和:" + sum); //將總和加到listBox1控制項中
+                    inputFile.Close(); //關閉檔案
                 }
-                listBox1.Items.Add("總共有" + count + "個數字\n總和:" + sum); //將總和加到listBox1控制項中
-                inputFile.Close(); //關閉檔案
+                else
+                {
+                    MessageBox.Show("您沒有選擇任何檔案，程式即將結束。");
+                    this.Close();
+                }
             }
+            
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
