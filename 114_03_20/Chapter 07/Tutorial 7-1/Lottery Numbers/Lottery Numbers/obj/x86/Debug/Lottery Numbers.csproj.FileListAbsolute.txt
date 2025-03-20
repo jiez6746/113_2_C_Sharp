@@ -29,3 +29,13 @@ D:\Documents\Books\C#\4th Edition\Completed Tutorials\Chapter 07\Tutorial 7-1\Lo
 D:\Documents\Books\C#\4th Edition\Completed Tutorials\Chapter 07\Tutorial 7-1\Lottery Numbers\Lottery Numbers\obj\x86\Debug\Lottery_Numbers.Form1.resources
 D:\Documents\Books\C#\4th Edition\Completed Tutorials\Chapter 07\Tutorial 7-1\Lottery Numbers\Lottery Numbers\obj\x86\Debug\Lottery_Numbers.Properties.Resources.resources
 D:\Documents\Books\C#\4th Edition\Completed Tutorials\Chapter 07\Tutorial 7-1\Lottery Numbers\Lottery Numbers\obj\x86\Debug\Lottery Numbers.csproj.GenerateResource.Cache
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_20\Chapter 07\Tutorial 7-1\Lottery Numbers\Lottery Numbers\bin\Debug\Lottery Numbers.exe.config
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_20\Chapter 07\Tutorial 7-1\Lottery Numbers\Lottery Numbers\bin\Debug\Lottery Numbers.exe
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_20\Chapter 07\Tutorial 7-1\Lottery Numbers\Lottery Numbers\bin\Debug\Lottery Numbers.pdb
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_20\Chapter 07\Tutorial 7-1\Lottery Numbers\Lottery Numbers\obj\x86\Debug\Lottery Numbers.csproj.AssemblyReference.cache
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_20\Chapter 07\Tutorial 7-1\Lottery Numbers\Lottery Numbers\obj\x86\Debug\Lottery_Numbers.Form1.resources
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_20\Chapter 07\Tutorial 7-1\Lottery Numbers\Lottery Numbers\obj\x86\Debug\Lottery_Numbers.Properties.Resources.resources
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_20\Chapter 07\Tutorial 7-1\Lottery Numbers\Lottery Numbers\obj\x86\Debug\Lottery Numbers.csproj.GenerateResource.cache
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_20\Chapter 07\Tutorial 7-1\Lottery Numbers\Lottery Numbers\obj\x86\Debug\Lottery Numbers.csproj.CoreCompileInputs.cache
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_20\Chapter 07\Tutorial 7-1\Lottery Numbers\Lottery Numbers\obj\x86\Debug\Lottery Numbers.exe
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_20\Chapter 07\Tutorial 7-1\Lottery Numbers\Lottery Numbers\obj\x86\Debug\Lottery Numbers.pdb
