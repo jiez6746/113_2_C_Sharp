@@ -1,0 +1,17 @@
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\bin\Debug\net8.0-windows\NumberSearch.exe
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\bin\Debug\net8.0-windows\NumberSearch.deps.json
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\bin\Debug\net8.0-windows\NumberSearch.runtimeconfig.json
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\bin\Debug\net8.0-windows\NumberSearch.dll
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\bin\Debug\net8.0-windows\NumberSearch.pdb
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\obj\Debug\net8.0-windows\NumberSearch.Form1.resources
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\obj\Debug\net8.0-windows\NumberSearch.csproj.GenerateResource.cache
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\obj\Debug\net8.0-windows\NumberSearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\obj\Debug\net8.0-windows\NumberSearch.AssemblyInfoInputs.cache
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\obj\Debug\net8.0-windows\NumberSearch.AssemblyInfo.cs
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\obj\Debug\net8.0-windows\NumberSearch.csproj.CoreCompileInputs.cache
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\obj\Debug\net8.0-windows\NumberSearch.sourcelink.json
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\obj\Debug\net8.0-windows\NumberSearch.dll
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\obj\Debug\net8.0-windows\refint\NumberSearch.dll
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\obj\Debug\net8.0-windows\NumberSearch.pdb
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\obj\Debug\net8.0-windows\NumberSearch.genruntimeconfig.cache
+C:\Users\shu\Desktop\113_2_C_Sharp\114_03_27\NumberSearch\NumberSearch\obj\Debug\net8.0-windows\ref\NumberSearch.dll
