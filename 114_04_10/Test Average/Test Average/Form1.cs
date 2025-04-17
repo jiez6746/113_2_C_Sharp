@@ -20,14 +20,14 @@ namespace Test_Average
 
         // The Average method accepts an int array argument
         // and returns the Average of the values in the array.
-        private   Average(   )
+        private double  Average(   )
         {
             
         }
 
         // The Highest method accepts an int array argument
         // and returns the highest value in that array.
-        private Highest(int[] scores)
+        private int Highest(int[] scores)
         {
            int highest = scores[0];
             for (int index = 1; index < scores.Length; index++)
@@ -45,7 +45,7 @@ namespace Test_Average
 
         // The Lowest method accepts an int array argument
         // and returns the lowest value in that array.
-        private  Lowest(   )
+        private int Lowest(   )
         {
            
         }
@@ -56,6 +56,7 @@ namespace Test_Average
             int[] testScores = new int[SIZE];
             int index = 0;
             int highestScore = 0;
+            int lowestScore = 0;
             double averageScore = 0.0;
             StreamReader inputFile;
             try
@@ -79,9 +80,9 @@ namespace Test_Average
                     // Call the Lowest method and assign its return value to lowestScore.
                     lowestScore = Lowest(testScores);
                     // Display the results in a message box.
-                    averageScorelabel.Text = averageScore.ToString("n1");
-                    highestScoreLabel.Text = highestScore.ToString();
-                    lowestScoreLabel.Text = lowestScore.ToString();
+                    averageScoreLabel.Text = averageScore.ToString("n1");
+                    highScoreLabel.Text = highestScore.ToString();
+                    lowScoreLabel.Text = lowScoreLabel.ToString();
 
                 }
             }
