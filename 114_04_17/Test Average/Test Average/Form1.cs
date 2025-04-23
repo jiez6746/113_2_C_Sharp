@@ -20,9 +20,15 @@ namespace Test_Average
 
         // The Average method accepts an int array argument
         // and returns the Average of the values in the array.
-        private double  Average(   )
+        private double  Average(int[] scores)
         {
-            
+            int total = 0 ;
+            for (int i = 0; i < scores.Length; i++)
+            {
+                total += scores[i];
+            }
+            return (double)total / scores.Length;
+
         }
 
         // The Highest method accepts an int array argument
@@ -37,17 +43,21 @@ namespace Test_Average
             }
             return highest;
 
-
-
-
-
         }
 
         // The Lowest method accepts an int array argument
         // and returns the lowest value in that array.
-        private int Lowest(   )
+        private int Lowest(int[] scores)
         {
-           
+            int lowest = scores[0];
+            for(int index =1; index <scores.Length; index++)
+            { 
+              if (scores[index] < lowest)
+              lowest = scores[index];
+
+            }
+            return lowest;
+
         }
 
         private void getScoresButton_Click(object sender, EventArgs e)
@@ -66,13 +76,13 @@ namespace Test_Average
                     // Open the file.  
                     inputFile = File.OpenText(openFile.FileName);
                     // Clear the ListBox before adding new items.  
-                    testScoreListBox.Items.Clear();
+                    testScoresListBox.Items.Clear();
                     // Read the test scores from the file.  
                     while (!inputFile.EndOfStream && index < SIZE)
                     {
                         testScores[index] = Convert.ToInt32(inputFile.ReadLine());
                         // Add the score to the ListBox.  
-                        testScoreListBox.Items.Add(testScores[index]);
+                        testScoresListBox.Items.Add(testScores[index]);
                         index++;
                     }
                     // Close the file.  
