@@ -25,12 +25,10 @@ namespace Test_Average
         private double Average(List<int> scores)
         {
             int total = 0;
-            // 遍歷清單中的每個分數，並將其加到總和中
             foreach (int score in scores)
             {
                 total += score;
             }
-            // 返回總和除以分數數量的平均值
             return (double)total / scores.Count;
         }
 
@@ -39,7 +37,6 @@ namespace Test_Average
         private int Highest(List<int> scores)
         {
             int highest = scores[0];
-            // 遍歷清單中的每個分數，並找出最高的分數
             for (int i = 1; i < scores.Count; i++)
             {
                 if (scores[i] > highest)
@@ -47,7 +44,6 @@ namespace Test_Average
                     highest = scores[i];
                 }
             }
-            // 返回最高的分數
             return highest;
         }
 
@@ -56,7 +52,6 @@ namespace Test_Average
         private int Lowest(List<int> scores)
         {
             int lowest = scores[0];
-            // 遍歷清單中的每個分數，並找出最低的分數
             foreach (int score in scores)
             {
                 if (score < lowest)
@@ -64,7 +59,6 @@ namespace Test_Average
                     lowest = score;
                 }
             }
-            // 返回最低的分數
             return lowest;
         }
 
@@ -78,25 +72,19 @@ namespace Test_Average
             {
                 if (openFile.ShowDialog() == DialogResult.OK)
                 {
-                    // 打開文件。
                     inputFile = File.OpenText(openFile.FileName);
-                    // 清空 ListBox 和清單。
                     testScoresListBox.Items.Clear();
                     testScores.Clear();
-                    // 從文件中讀取測試分數。
                     while (!inputFile.EndOfStream)
                     {
                         int score = int.Parse(inputFile.ReadLine());
                         testScores.Add(score);
-                        // 將分數添加到 ListBox 中。
                         testScoresListBox.Items.Add(score);
                     }
-                    inputFile.Close();  // 關閉文件。
-                                        // 計算平均分數、最高分數和最低分數。
+                    inputFile.Close();
                     averageScore = Average(testScores);
                     highestScore = Highest(testScores);
                     lowestScore = Lowest(testScores);
-                    // 顯示結果。
                     averageScoreLabel.Text = averageScore.ToString("n1");
                     highScoreLabel.Text = highestScore.ToString();
                     lowScoreLabel.Text = lowestScore.ToString();
@@ -104,14 +92,12 @@ namespace Test_Average
             }
             catch (Exception ex)
             {
-                // 顯示錯誤訊息。
                 MessageBox.Show(ex.Message, "錯誤");
             }
         }
 
         private void exitButton_Click(object sender, EventArgs e)
         {
-            // 關閉表單。
             this.Close();
         }
 
@@ -130,72 +116,17 @@ namespace Test_Average
             }
         }
 
-        //    private void deleteButton_Click(object sender, EventArgs e)
-        //    {
-        //        // 確認是否有選擇項目
-        //        if (testScoresListBox.SelectedIndex != -1)
-        //        {
-        //            // 取得選中的分數
-        //            int selectedScore = (int)testScoresListBox.SelectedItem;
-
-        //            // 從清單中移除該分數
-        //            testScores.Remove(selectedScore);
-
-        //            // 更新 testScoresListBox
-        //            testScoresListBox.Items.Clear();
-        //            foreach (int score in testScores)
-        //            {
-        //                testScoresListBox.Items.Add(score);
-        //            }
-
-        //            // 更新 sortedScoresListBox
-        //            sortedScoresListBox.Items.Clear();
-        //            List<int> sortedScores = new List<int>(testScores);
-        //            sortedScores.Sort();
-        //            foreach (int score in sortedScores)
-        //            {
-        //                sortedScoresListBox.Items.Add(score);
-        //            }
-
-        //            // 更新平均分數、最高分數和最低分數
-        //            if (testScores.Count > 0)
-        //            {
-        //                averageScoreLabel.Text = Average(testScores).ToString("n1");
-        //                highScoreLabel.Text = Highest(testScores).ToString();
-        //                lowScoreLabel.Text = Lowest(testScores).ToString();
-        //            }
-        //            else
-        //            {
-        //                averageScoreLabel.Text = string.Empty;
-        //                highScoreLabel.Text = string.Empty;
-        //                lowScoreLabel.Text = string.Empty;
-        //            }
-        //        }
-        //        else
-        //        {
-        //            // 如果沒有選擇項目，顯示提示訊息
-        //            MessageBox.Show("請選擇要刪除的分數。", "提示");
-        //        }
-        //    }
         private void deleteButton_Click(object sender, EventArgs e)
         {
-            // 確認是否有選擇項目
             if (testScoresListBox.SelectedIndex != -1)
             {
-                // 取得選中的索引
                 int selectedIndex = testScoresListBox.SelectedIndex;
-
-                // 從清單中移除該索引位置的分數
                 testScores.RemoveAt(selectedIndex);
-
-                // 更新 testScoresListBox
                 testScoresListBox.Items.Clear();
                 foreach (int score in testScores)
                 {
                     testScoresListBox.Items.Add(score);
                 }
-
-                // 更新 sortedScoresListBox
                 sortedScoresListBox.Items.Clear();
                 List<int> sortedScores = new List<int>(testScores);
                 sortedScores.Sort();
@@ -203,8 +134,6 @@ namespace Test_Average
                 {
                     sortedScoresListBox.Items.Add(score);
                 }
-
-                // 更新平均分數、最高分數和最低分數
                 if (testScores.Count > 0)
                 {
                     averageScoreLabel.Text = Average(testScores).ToString("n1");
@@ -220,8 +149,56 @@ namespace Test_Average
             }
             else
             {
-                // 如果沒有選擇項目，顯示提示訊息
                 MessageBox.Show("請選擇要刪除的分數。", "提示");
+            }
+        }
+
+        private void insertButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // 確認 TextBox1 和 TextBox2 的輸入是否有效
+                if (int.TryParse(TextBox1.Text, out int newScore) && int.TryParse(TextBox2.Text, out int position))
+                {
+                    // 確保插入位置在有效範圍內
+                    if (position < 0 || position > testScores.Count)
+                    {
+                        MessageBox.Show("插入位置無效。", "錯誤");
+                        return;
+                    }
+
+                    // 在指定位置插入分數
+                    testScores.Insert(position, newScore);
+
+                    // 更新 testScoresListBox
+                    testScoresListBox.Items.Clear();
+                    foreach (int score in testScores)
+                    {
+                        testScoresListBox.Items.Add(score);
+                    }
+
+                    // 更新 sortedScoresListBox
+                    sortedScoresListBox.Items.Clear();
+                    List<int> sortedScores = new List<int>(testScores);
+                    sortedScores.Sort();
+                    foreach (int score in sortedScores)
+                    {
+                        sortedScoresListBox.Items.Add(score);
+                    }
+
+                    // 更新平均分數、最高分數和最低分數
+                    averageScoreLabel.Text = Average(testScores).ToString("n1");
+                    highScoreLabel.Text = Highest(testScores).ToString();
+                    lowScoreLabel.Text = Lowest(testScores).ToString();
+                }
+                else
+                {
+                    MessageBox.Show("請輸入有效的數字和位置。", "錯誤");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "錯誤");
             }
         }
     }
