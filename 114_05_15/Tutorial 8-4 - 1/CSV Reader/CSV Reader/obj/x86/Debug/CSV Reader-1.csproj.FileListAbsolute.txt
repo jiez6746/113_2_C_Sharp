@@ -1,0 +1,10 @@
+C:\Users\shu\Desktop\113_2_C_Sharp\114_05_15\Tutorial 8-4 - 1\CSV Reader\CSV Reader\bin\Debug\CSV Reader.exe.config
+C:\Users\shu\Desktop\113_2_C_Sharp\114_05_15\Tutorial 8-4 - 1\CSV Reader\CSV Reader\bin\Debug\CSV Reader.exe
+C:\Users\shu\Desktop\113_2_C_Sharp\114_05_15\Tutorial 8-4 - 1\CSV Reader\CSV Reader\bin\Debug\CSV Reader.pdb
+C:\Users\shu\Desktop\113_2_C_Sharp\114_05_15\Tutorial 8-4 - 1\CSV Reader\CSV Reader\obj\x86\Debug\CSV Reader-1.csproj.AssemblyReference.cache
+C:\Users\shu\Desktop\113_2_C_Sharp\114_05_15\Tutorial 8-4 - 1\CSV Reader\CSV Reader\obj\x86\Debug\CSV_Reader.Form1.resources
+C:\Users\shu\Desktop\113_2_C_Sharp\114_05_15\Tutorial 8-4 - 1\CSV Reader\CSV Reader\obj\x86\Debug\CSV_Reader.Properties.Resources.resources
+C:\Users\shu\Desktop\113_2_C_Sharp\114_05_15\Tutorial 8-4 - 1\CSV Reader\CSV Reader\obj\x86\Debug\CSV Reader-1.csproj.GenerateResource.cache
+C:\Users\shu\Desktop\113_2_C_Sharp\114_05_15\Tutorial 8-4 - 1\CSV Reader\CSV Reader\obj\x86\Debug\CSV Reader-1.csproj.CoreCompileInputs.cache
+C:\Users\shu\Desktop\113_2_C_Sharp\114_05_15\Tutorial 8-4 - 1\CSV Reader\CSV Reader\obj\x86\Debug\CSV Reader.exe
+C:\Users\shu\Desktop\113_2_C_Sharp\114_05_15\Tutorial 8-4 - 1\CSV Reader\CSV Reader\obj\x86\Debug\CSV Reader.pdb
