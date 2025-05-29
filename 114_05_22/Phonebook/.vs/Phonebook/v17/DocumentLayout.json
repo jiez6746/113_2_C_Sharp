@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\shu\\Desktop\\113_2_C_Sharp\\114_05_22\\Phonebook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{387F58FC-8466-449F-8FEB-E3787E1F8004}|Phonebook\\Phonebook.csproj|C:\\Users\\shu\\Desktop\\113_2_C_Sharp\\114_05_22\\Phonebook\\phonebook\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{387F58FC-8466-449F-8FEB-E3787E1F8004}|Phonebook\\Phonebook.csproj|c:\\users\\shu\\desktop\\113_2_c_sharp\\114_05_22\\phonebook\\phonebook\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{387F58FC-8466-449F-8FEB-E3787E1F8004}|Phonebook\\Phonebook.csproj|solutionrelative:phonebook\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{387F58FC-8466-449F-8FEB-E3787E1F8004}|Phonebook\\Phonebook.csproj|c:\\users\\shu\\desktop\\113_2_c_sharp\\114_05_22\\phonebook\\phonebook\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{387F58FC-8466-449F-8FEB-E3787E1F8004}|Phonebook\\Phonebook.csproj|C:\\Users\\shu\\Desktop\\113_2_C_Sharp\\114_05_22\\Phonebook\\phonebook\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{387F58FC-8466-449F-8FEB-E3787E1F8004}|Phonebook\\Phonebook.csproj|solutionrelative:phonebook\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Phonebook\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\shu\\Desktop\\113_2_C_Sharp\\114_05_22\\Phonebook\\Phonebook\\Form1.Designer.cs",
               "RelativeToolTip": "Phonebook\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T03:42:04.929Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Phonebook\\Form1.cs",
               "ToolTip": "C:\\Users\\shu\\Desktop\\113_2_C_Sharp\\114_05_22\\Phonebook\\Phonebook\\Form1.cs",
               "RelativeToolTip": "Phonebook\\Form1.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAGkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAGkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T08:12:45.393Z",
               "EditorCaption": ""
