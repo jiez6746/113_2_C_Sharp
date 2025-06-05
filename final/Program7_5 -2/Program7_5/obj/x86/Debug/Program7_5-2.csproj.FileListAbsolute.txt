@@ -1,0 +1,9 @@
+C:\Users\w401\Desktop\113_2_C_Sharp\final\Program7_5 -2\Program7_5\bin\Debug\Program7_5.exe
+C:\Users\w401\Desktop\113_2_C_Sharp\final\Program7_5 -2\Program7_5\bin\Debug\Program7_5.pdb
+C:\Users\w401\Desktop\113_2_C_Sharp\final\Program7_5 -2\Program7_5\obj\x86\Debug\Program7_5-2.csproj.AssemblyReference.cache
+C:\Users\w401\Desktop\113_2_C_Sharp\final\Program7_5 -2\Program7_5\obj\x86\Debug\Program7_5.Form1.resources
+C:\Users\w401\Desktop\113_2_C_Sharp\final\Program7_5 -2\Program7_5\obj\x86\Debug\Program7_5.Properties.Resources.resources
+C:\Users\w401\Desktop\113_2_C_Sharp\final\Program7_5 -2\Program7_5\obj\x86\Debug\Program7_5-2.csproj.GenerateResource.cache
+C:\Users\w401\Desktop\113_2_C_Sharp\final\Program7_5 -2\Program7_5\obj\x86\Debug\Program7_5-2.csproj.CoreCompileInputs.cache
+C:\Users\w401\Desktop\113_2_C_Sharp\final\Program7_5 -2\Program7_5\obj\x86\Debug\Program7_5.exe
+C:\Users\w401\Desktop\113_2_C_Sharp\final\Program7_5 -2\Program7_5\obj\x86\Debug\Program7_5.pdb
